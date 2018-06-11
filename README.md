@@ -1,28 +1,16 @@
-# Getting Started With Schematics
+# @ghostrick/ng-schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
 
-### Testing
-
-To test locally, install `@angular-devkit/schematics` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
-
-Check the documentation with
+# Install
 ```bash
-schematics --help
+$ yarn add @ghostrick/ng-schematics
 ```
-
-### Unit Testing
-
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
+# Usage
+## Generate component with stylus and pug
+😢 This feature is still incomplete
 ```bash
-npm run build
-npm publish
+$ ng g @ghostrick/ng-schematics:component test
 ```
-
-That's it!
- 
+### Options
+- prefix: string
+- flat: boolean
